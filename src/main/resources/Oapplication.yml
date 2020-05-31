@@ -1,0 +1,11 @@
+server:
+   port: 8888
+spring:
+  profile:
+      active: native
+  cloud: 
+      config:
+         server:
+           native:          
+             searchLocations: file\\\C:/workspace/johoco/spring-cloud-server/config-repo
+message: duh
